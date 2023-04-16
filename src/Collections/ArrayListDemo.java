@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListDemo {
 
@@ -22,6 +23,8 @@ public class ArrayListDemo {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<>();
+		List<Integer> l = new ArrayList<Integer>();
+		
 		//CRUD
 		list.add(45);
 		list.add(12);
@@ -69,6 +72,13 @@ public class ArrayListDemo {
 		
 		list.add(1, 1001);
 		System.out.println(list);
+		
+		System.out.println("Learning index");
+		System.out.println(list);
+		System.out.println(list.get(1)); //1001
+		list.remove(1);
+		System.out.println(list);
+		System.out.println(list.get(1)); //23
 		
 	}
 }
