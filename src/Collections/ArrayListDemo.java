@@ -80,5 +80,12 @@ public class ArrayListDemo {
 		System.out.println(list);
 		System.out.println(list.get(1)); //23
 		
+		/*
+		 * ArrayList
+		 * find the max, min, average, sum
+		 * find if there is a duplicate element
+		 * remove the duplicate elemnents
+		 */
+		
 	}
 }
