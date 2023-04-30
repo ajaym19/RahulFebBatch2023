@@ -25,5 +25,7 @@ public class ExceptionTypes {
 		String name = null;
 		//System.out.println(name.length());
 		System.out.println(5/0);
+		
+		throw new NullPointerException();
 	}
 }
